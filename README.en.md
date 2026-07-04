@@ -93,8 +93,8 @@ To test the Chrome OS version, you can follow these steps:
 - Please first install [PIME](https://github.com/EasyIME/PIME/releases) on your Windows PC. During installation, please note that you need to check the option to install Node-related input methods. PIME supports both Python and Node input method frameworks, but Node-related input methods are not in the default installation options, while McBopomofo is based on the Node version.
 - You can install Node.js environment on your own PC, then execute `npm run build:pime`.
 - If you are not using a Traditional Chinese edition of Windows, you must first add the Traditional Chinese language pack in Windows language settings. McBopomofo will only appear after the Traditional Chinese language is installed.
-- Copy the files in the output\pime directory to the PIME installation directory, for example `C:\Program Files (x86)\PIME\node\input_methods\mcbopomofo`. You may need administrator privileges.
-- Use administrator privileges to execute `regsvr32 "C:\Program Files (X86)\PIME\x86\PIMETextService.dll"` to register the McBopomofo input method in the system.
+- Copy the files in the output\pime directory to the YIME installation directory, for example `C:\Program Files (x86)\YIME\node\input_methods\mcbopomofo`. You may need administrator privileges.
+- Use administrator privileges to execute `regsvr32 "C:\Program Files (X86)\YIME\x86\PIMETextService.dll"` to register the McBopomofo input method in the system.
 - If the previous step fails, it is usually because administrator privileges were not used. Another possible reason is that the DLL is not code-signed, so make sure you installed an official signed PIME release.
 - After each recompilation, you need to perform the same steps, then remember to restart the PIME service. You can right-click on the PIME Launcher icon in the system tray and select "Restart".
 - You can also refer to the content of build_pime.bat.

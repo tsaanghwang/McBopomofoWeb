@@ -19,7 +19,7 @@
     <Fragment>
         <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
             <Component Id="TargetProgram" Guid="2324ad3d-a09c-4713-8d1c-c549c090f9ac">
-                <File Id="REGISTER_IME" Source="C:\Program Files (x86)\PIME\node\input_methods\mcbopomofo\run_register_ime.bat" />
+                <File Id="REGISTER_IME" Source="C:\Program Files (x86)\YIME\node\input_methods\mcbopomofo\run_register_ime.bat" />
             </Component>
         </ComponentGroup>
 
